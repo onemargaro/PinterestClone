@@ -1,0 +1,23 @@
+.actionbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.actionbar_item {
+    border-radius: 50%;
+    line-height: 0;
+    padding: 0;
+}
+
+.format_pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {}

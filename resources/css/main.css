@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.card_list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.card {
+  border-radius: 25px;
+  margin: 10px;
+  position: relative;
+  width: 25%;
+}
+
+.card_description {
+  display: flex;
+  justify-content: center;
+}
+
+.card_description button {
+  padding: 10px;
+  width: 35%;
+}
+
+.card_description button:first-child {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card_description button:last-child {
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card_image {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.card_reveal {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.card:hover .card_reveal,
+.card:focus-within .card_reveal {
+  opacity: 1;
+}
+
+.card_actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_btn {
+  padding: 10px;
+  background-color: lightgray;
+  color: rgb(0, 0, 0, 0.9);
+}
+
+.btn-card {
+  width: 550px;
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+}
+
+.card_actions > a {
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.btn2-card {
+  border-radius: 50%;
+  justify-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin: 10px;
+    width: 45%;
+  }
+}

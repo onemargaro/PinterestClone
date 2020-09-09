@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Pinterest Clone</title>
+    <link rel="stylesheet" href="../resources/css/header.css" />
+    <link rel="stylesheet" href="../resources/css/main.css" />
+    <link rel="stylesheet" href="../resources/css/footer.css" />
+    <link rel="stylesheet" href="../resources/css/perfil.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navigationbar">
+        <ul>
+          <li>
+            <a href="../index.html">
+              <img
+                src="https://img.icons8.com/fluent/48/000000/pinterest.png"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a class="navigationbar_button" href="../index.html">
+              Inicio
+              <i class="fas fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a class="navigationbar_button">Hoy</a>
+          </li>
+          <li>
+            <a class="navigationbar_button">Siguiendo</a>
+          </li>
+        </ul>
+        <div class="navigationbar_container">
+          <i class="fas fa-search"></i>
+          <input
+            class="navigationbar_search"
+            type="text"
+            name="search"
+            placeholder="Buscar"
+            id=""
+          />
+        </div>
+        <ul class="navigationbar_iconcontainer">
+          <li class="icon_item">
+            <a href="#ACTUALIZACIONES">
+              <i class="fas fa-bell"></i>
+            </a>
+          </li>
+          <li class="icon_item">
+            <a href="#BANDEJA-DE-ENTRADA">
+              <i class="fas fa-comment-dots"></i>
+            </a>
+          </li>
+          <li class="icon_item">
+            <a href="#PERFIL" class="active">
+              <img
+                class="format_pic"
+                src="https://ca.slack-edge.com/TE1NJDVGU-U01848GFWCQ-2c1436009688-512"
+                alt="plus icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="profile_continer">
+        <div>
+          <img
+            class="profile_image"
+            src="../resources/imagenes/1.jpg"
+            alt="profile_image"
+          />
+        </div>
+        <div>
+          <h1>NOMBRE APELLIDO</h1>
+        </div>
+        <div class="profile_estadistics">
+          <div>
+            seguidores 0
+          </div>
+          <div>
+            siguiendo 0
+          </div>
+        </div>
+      </section>
+      <section class="profile_navigation">
+        <div>
+          <button>
+            <img src="../resources/imagenes/dots.png" alt="dots" />
+          </button>
+          <button>
+            <img src="../resources/imagenes/up.png" alt="up row" />
+          </button>
+        </div>
+        <div>
+          <button class="tab_button active">tableros</button>
+          <button class="tab_button">pines</button>
+        </div>
+        <div>
+          <button><i class="fas fa-comment-dots"></i></button>
+          <button>
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </section>
+      <section class="card_list">
+        <div class="card">
+          <img
+            class="card_image"
+            src="../resources/imagenes/1.jpg"
+            alt="tatuajes"
+          />
+
+          <div class="card_reveal">
+            <div class="card_description">
+              <button>
+                Ejercicios
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <button>
+                Guardar
+              </button>
+            </div>
+
+            <div class="card_links">
+              <div class="card_actions">
+                <a href="../pages/detail.html" class="card_btn btn1-card"
+                  >Detail
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <div class="card_buttons">
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fas fa-comment-dots"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="card_image"
+            src="https://i.pinimg.com/originals/bb/3b/52/bb3b52df9be2bd958620d958aa471f65.jpg"
+            alt="tatuajes"
+          />
+
+          <div class="card_reveal">
+            <div class="card_description">
+              <button>
+                Ejercicios
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <button>
+                Guardar
+              </button>
+            </div>
+
+            <div class="card_links">
+              <div class="card_actions">
+                <a href="../pages/detail.html" class="card_btn btn1-card"
+                  >Detail
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <div class="card_buttons">
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="card_image"
+            src="https://i.pinimg.com/564x/a3/00/f1/a300f1e36626ebd01409b06e705fb9ea.jpg"
+            alt="tatuajes"
+          />
+
+          <div class="card_reveal">
+            <div class="card_description">
+              <button>
+                Ejercicios
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <button>
+                Guardar
+              </button>
+            </div>
+
+            <div class="card_links">
+              <div class="card_actions">
+                <a href="../pages/detail.html" class="card_btn btn1-card"
+                  >Detail
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <div class="card_buttons">
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fas fa-comment-dots"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card_image"
+            src="https://i.pinimg.com/originals/e3/67/a8/e367a8141fd10167db5d5e477dbf20d0.jpg"
+            alt="tatuajes"
+          />
+
+          <div class="card_reveal">
+            <div class="card_description">
+              <button>
+                Ejercicios
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <button>
+                Guardar
+              </button>
+            </div>
+
+            <div class="card_links">
+              <div class="card_actions">
+                <a href="../pages/detail.html" class="card_btn btn1-card"
+                  >Detail
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <div class="card_buttons">
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <img
+              class="card_image"
+              src="../resources/imagenes/code.jpg"
+              alt="code"
+            />
+          <div class="card_reveal">
+            <div class="card_description">
+              <button>
+                Ejercicios
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <button>
+                Guardar
+              </button>
+            </div>
+
+            <div class="card_links">
+              <div class="card_actions">
+                <a href="../pages/detail.html" class="card_btn btn1-card"
+                  >Detail
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <div class="card_buttons">
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://www.google.com" class="card_btn btn2-card">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="actionbar">
+        <button class="actionbar_item">
+          <img
+            class="format_pic"
+            src="../resources/imagenes/plus_sign.png"
+            alt="plus icon"
+          />
+        </button>
+        <button class="actionbar_item">
+          <img
+            class="format_pic"
+            src="../resources/imagenes/question_mark.png"
+            alt="help icon"
+          />
+        </button>
+      </nav>
+    </footer>
+  </body>
+</html>

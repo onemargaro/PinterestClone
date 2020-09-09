@@ -1,0 +1,46 @@
+.profile_continer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.profile_estadistics {
+  display: flex;
+  margin: 5px;
+}
+
+.profile_navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.profile_navigation div:nth-child(2) {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_navigation i {
+  font-size: 30px;
+}
+
+.profile_navigation button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.tab_button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 25px;
+}
